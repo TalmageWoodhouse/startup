@@ -38,13 +38,13 @@ Here is a sequence Diagram showing how users interact with the application to mo
 ```mermaid
 sequenceDiagram
     actor You
-    actor app
-    actor otherplayer
-    You->>app: Move
-    app-->>You: update tiles and score
-    You->>app: bad move
-    app-->>You: end game, update highscore if necessary
-    app-->>otherplayer: highscores
+    actor App
+    actor Otherplayer
+    You->>App: Move
+    App-->>You: Update tiles and score
+    You->>App: Bad move
+    App-->>You: End game, update highscore if necessary
+    App-->>Otherplayer: Update highscores
 ```
 
 ### Key features
