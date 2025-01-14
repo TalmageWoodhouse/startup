@@ -17,23 +17,23 @@
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
-- [ ] Description of key features
+- [x] Proper use of Markdown
+- [x] A concise and compelling elevator pitch
+- [x] Description of key features
 - [ ] Description of how you will use each technology
-- [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
+- [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
 
 Do you think you could get your highest number to 3072? Challenge yourself with this fun, simple game of strategy and addition!
 
-If there are times in your day where you need a break from school, are bored, or stressed you may think to yourself, "What could I do to fill this time?" 3072 is the perfect game that keeps your brain awake while allowing you to take a break from what you're doing or simply entertain the mind when you're bored. Play whenever and as long as you like. Give it a try!
+If there are times in your day where you need a break from school, are bored, or stressed, you may think to yourself, "What could I do to fill this time?" 3072 is the perfect game that keeps your brain awake while allowing you to take a break from what you're doing or simply entertain the mind when you're bored. Play whenever and as long as you like. Give it a try!
 
 ### Design
 
 ![Design image](3072startup.png)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Here is a sequence Diagram showing how users interact with the application to move pieces and increment tiles.
 
 ```mermaid
 sequenceDiagram
@@ -58,9 +58,9 @@ I am going to use the required technologies in the following ways.
 - **HTML** - Structure the basic layout of the webpage and game including the main gameboard, buttons, and score displays
 - **CSS** - Application styling such as colors and shape of number tiles, animations for tile movement and merging, and other styling for compatability with different devices
 - **React** - interactive user interface. Handle the game state, manage tile movements and merges, update scores, and start new game.
-- **Service** - Description here
+- **Service** - implement games core logic such as moving tiles, merging tiles, checking game over conditions, and calculating scores
 - **DB/Login** - Save data of user logins and highscores in database.
-- **WebSocket** - Highscores are saved for everyone to see
+- **WebSocket** - Highscores are saved for everyone to see, live leaderboard.
 
 ## 🚀 AWS deliverable
 
