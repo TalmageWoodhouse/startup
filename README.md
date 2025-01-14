@@ -44,7 +44,7 @@ sequenceDiagram
     App-->>You: Update tiles and score
     You->>App: Bad move
     App-->>You: End game, update highscore if necessary
-    App-->>Otherplayer: Update highscores
+    App-->>Otherplayer,You: Update highscores
 ```
 
 ### Key features
@@ -61,9 +61,9 @@ sequenceDiagram
 I am going to use the required technologies in the following ways.
 
 - **HTML** - Structure the basic layout of the webpage and game including the main gameboard, buttons, and score displays
-- **CSS** - Application styling such as colors and shape of number tiles, animations for tile movement and merging, and other styling for compatability with different devices
-- **React** - interactive user interface. Handle the game state, manage tile movements and merges, update scores, and start new game.
-- **Service** - implement games core logic such as moving tiles, merging tiles, checking game over conditions, and calculating scores
+- **CSS** - Application styling such as colors and shape of number tiles, board layout, animations for tile movement and merging, and other styling for compatability with different devices.
+- **React** - Interactive user interface. Handle the game state, manage tile movements and merges, update scores, and start new game.
+- **Service** - Implement games core logic such as moving tiles, merging tiles, checking game over conditions, and calculating scores, getting images from another api.
 - **DB/Login** - Save data of user logins and highscores in database.
 - **WebSocket** - Highscores are saved for everyone to see, live leaderboard.
 
