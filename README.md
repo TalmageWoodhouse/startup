@@ -7,13 +7,10 @@
 > [!NOTE]
 > This is a note I want to keep here to add notes in the future.
 
-> [!NOTE]
-> If you are not familiar with Markdown then you should review the [documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) before continuing.
-
 ## 🚀 Specification Deliverable
 
 > [!NOTE]
-> Fill in this sections as the submission artifact for this deliverable. You can refer to this [example](https://github.com/webprogramming260/startup-example/blob/main/README.md) for inspiration.
+> Refer to this [example](https://github.com/webprogramming260/startup-example/blob/main/README.md) for inspiration.
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
@@ -40,12 +37,12 @@ sequenceDiagram
     actor You
     actor App
     actor Otherplayer
-    You->>App: Move
-    App-->>You: Update tiles and score
-    You->>App: Bad move
-    App-->>You: End game, update highscore if necessary
-    App-->>You: Update highscores
-    App-->>Otherplayer: Update highscores
+    You ->> App: Move
+    App -->> You: Update tiles and score
+    You ->> App: Bad move
+    App -->> You: End game, update highscore if necessary
+    App -->> You: Update highscores
+    App -->> Otherplayer: Update highscores
 
 ```
 
