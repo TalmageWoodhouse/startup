@@ -14,7 +14,7 @@ An interface refers to a point of interaction between different systems, devices
         - Hardware Interface: Defines how hardware components communicate with each other or with software, such as USB or HDMI interfaces.
 
 - React handles the interactive and dynamic user interface.
-- Service manages the core game logic and business rules.
+- Web Service manages the core game logic and business rules.
 - DB/Login secures user data and enables personalized experiences.
 - WebSocket provides real-time communication for a seamless, interactive gaming experience.
 
@@ -26,6 +26,7 @@ An interface refers to a point of interaction between different systems, devices
 - [Canvas](https://byu.instructure.com)
 - [MDN](https://developer.mozilla.org)
 - Basic Markdown and syntax. [Writing Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) before continuing.
+- Refer to this [example](https://github.com/webprogramming260/startup-example/blob/main/README.md) for inspiration.
 
 ## AWS Notes
 
