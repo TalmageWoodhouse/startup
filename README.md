@@ -44,7 +44,9 @@ sequenceDiagram
     App-->>You: Update tiles and score
     You->>App: Bad move
     App-->>You: End game, update highscore if necessary
-    App-->>Otherplayer,You: Update highscores
+    App-->>You: Update highscores
+    App-->>Otherplayer: Update highscores
+
 ```
 
 ### Key features
