@@ -20,9 +20,9 @@ An interface refers to a point of interaction between different systems, devices
 - DB/Login secures user data and enables personalized experiences.
 - WebSocket provides real-time communication for a seamless, interactive gaming experience.
 
-# AWS Delivereable
+# AWS Delivereable notes
 
-Launching an AWS server instance.
+### Launching an AWS server instance.
 
 - ssh -i ~/Documents/byucs/cs260/production.pem ubuntu@54.235.224.169
 - making a key pair file
@@ -32,11 +32,9 @@ Launching an AWS server instance.
   Set up HTTPS, TLS, and web certificates
 - Secured my web server communication by configuring Caddy to request a certificate from Let's Encrypt for you domain name
 
-# HTML Deliverable
+# HTML notes
 
-Code Pen
-
-[My startup](https://simon.cs260.click)
+Use [My Code Pen](https://codepen.io/TalmageWoodhouse) to practice and try out things that I may want to use for my startup.
 
 ## Helpful links
 
@@ -45,11 +43,3 @@ Code Pen
 - [MDN](https://developer.mozilla.org)
 - Basic Markdown and syntax. [Writing Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) before continuing.
 - Refer to this [example](https://github.com/webprogramming260/startup-example/blob/main/README.md) for inspiration.
-
-## AWS Notes
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## HTML Notes
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
