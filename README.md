@@ -73,15 +73,15 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **HTML pages** - I added pages for each of the pages I need to display by adding a menu with a list of the different links to the other pages.
-- [ ] **Proper HTML element usage** - I structured the elements in a way that works smoothyl and looks good.
-- [ ] **Links** - I created links that connect to each page in the application and to my github startup page
-- [ ] **Text** - I imputed text containing an explaination of how the game works and my elevator pitch.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **HTML pages** - I added pages for each of the pages I need to display by adding a menu with a list of the different links to the other pages.
+- [x] **Proper HTML element usage** - I structured the elements in a way that works smoothyl and looks good.
+- [x] **Links** - I created links that connect to each page in the application and to my github startup page
+- [x] **Text** - I imputed text containing an explaination of how the game works and my elevator pitch.
+- [x] **3rd party API placeholder** - I added a 3rd party api placeholder for a possible quote on the about page
+- [x] **Images** - Inserted an image on the about page
+- [x] **Login placeholder** - placeholder for authentacation onthe login page
+- [x] **DB data placeholder** - Displaying highscores on the highscores page
+- [x] **WebSocket placeholder** - there is live updates on the play page to see what other users are doing.
 
 ## 🚀 CSS deliverable
 
