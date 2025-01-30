@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3072</title>
+  </head>
+  <body>
+    <header>
+      <h1><span>◼️</span>3072<span>◼️</span></h1>
+
+      <!-- Navigation elements -->
+      <nav>
+        <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
+        <menu>
+          <a href="index.html">Home</a>
+          <a href="play.html">Play</a>
+          <a href="highscores.html">High Scores</a>
+          <a href="about.html">About</a>
+        </menu>
+      </nav>
+
+      <!-- Since we don't have the ability to style we use old style HTML to give some visual formatting -->
+      <hr size="20" color="lightgray" />
+    </header>
+
+    <main>
+      <menu>
+        <div>
+          <button>New Game</button>
+          <label for="count">Score</label>
+          <input type="text" id="count" value="--" readonly />
+          <label for="count">Highscore</label>
+          <input type="text" id="count" value="--" readonly />
+        </div>
+      </menu>
+
+      <title>4x4 SVG Table</title>
+      <svg width="260" height="260">
+        <!-- Background Grid -->
+        <rect
+          x="0"
+          y="0"
+          width="260"
+          height="260"
+          fill="none"
+          stroke="black"
+          stroke-width="2"
+        />
+
+        <!-- Tiles -->
+        <rect x="5" y="5" width="60" height="60" fill="lightgray" />
+        <rect x="70" y="5" width="60" height="60" fill="lightgray" />
+        <rect x="135" y="5" width="60" height="60" fill="lightgray" />
+        <rect x="200" y="5" width="60" height="60" fill="lightgray" />
+
+        <rect x="5" y="70" width="60" height="60" fill="lightgray" />
+        <rect x="70" y="70" width="60" height="60" fill="lightgray" />
+        <rect x="135" y="70" width="60" height="60" fill="lightgray" />
+        <rect x="200" y="70" width="60" height="60" fill="lightgray" />
+
+        <rect x="5" y="135" width="60" height="60" fill="lightgray" />
+        <rect x="70" y="135" width="60" height="60" fill="lightgray" />
+        <rect x="135" y="135" width="60" height="60" fill="lightgray" />
+        <rect x="200" y="135" width="60" height="60" fill="lightgray" />
+
+        <rect x="5" y="200" width="60" height="60" fill="lightgray" />
+        <rect x="70" y="200" width="60" height="60" fill="lightgray" />
+        <rect x="135" y="200" width="60" height="60" fill="lightgray" />
+        <rect x="200" y="200" width="60" height="60" fill="lightgray" />
+
+        <!-- Text in Tiles -->
+        <text
+          x="35"
+          y="40"
+          font-size="20"
+          font-weight="bold"
+          text-anchor="middle"
+          dominant-baseline="middle"
+        >
+          ?
+        </text>
+        <text
+          x="100"
+          y="40"
+          font-size="20"
+          font-weight="bold"
+          text-anchor="middle"
+          dominant-baseline="middle"
+        >
+          ?
+        </text>
+        <text
+          x="165"
+          y="40"
+          font-size="20"
+          font-weight="bold"
+          text-anchor="middle"
+          dominant-baseline="middle"
+        >
+          ?
+        </text>
+        <text
+          x="230"
+          y="40"
+          font-size="20"
+          font-weight="bold"
+          text-anchor="middle"
+          dominant-baseline="middle"
+        >
+          ?
+        </text>
+
+        <!-- More text elements for the other rows -->
+      </svg>
+
+      <br />
+      <br />
+
+      <div class="players">
+        Player:
+        <span class="playername">player name</span>
+      </div>
+      <ul class="notification">
+        <li class="playername">Tom started a new game</li>
+        <li class="playername">Julia started a new game</li>
+        <li class="playername">Tom scored 500</li>
+      </ul>
+    </main>
+
+    <footer>
+      <hr size="20" color="lightgray" />
+      <span class="text-reset">Talmage Woodhouse</span>
+      <br />
+      <a href="https://github.com/TalmageWoodhouse/startup.git">GitHub</a>
+    </footer>
+  </body>
+</html>

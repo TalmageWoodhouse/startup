@@ -10,12 +10,12 @@
   <body>
     <!-- Use header, main, and footer elements to give semantic structure -->
     <header>
-      <h1 style="text-align: center;"><span>◼️</span>3072<span>◼️</span></h1>
+      <h1><span>◼️</span>3072<span>◼️</span></h1>
 
       <!-- Navigation elements -->
       <nav>
         <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
-        <menu style="text-align: center;">
+        <menu>
           <a href="index.html">Home</a>
           <a href="play.html">Play</a>
           <a href="highscores.html">High Scores</a>
@@ -28,28 +28,43 @@
     </header>
 
     <main>
-      <h1 style="text-align: center">Login to play</h1>
-      <form method="get" action="play.html">
-        <div style="width: coopx; margin: auto; text-align: center">
-          <input type="text" placeholder="your@email.com" />
-        </div>
-        <div style="width: coopx; margin: auto; text-align: center">
-          <input type="password" placeholder="password" />
-        </div>
-        <div style="text-align: center">
-          <button type="submit">Login</button>
-          <button type="submit">Create</button>
-        </div>
-      </form>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Score</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>tyrell jr</td>
+            <td>5000</td>
+            <td>May 20, 2021</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>kai cenat</td>
+            <td>2500</td>
+            <td>June 2, 2021</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Duke Dennis</td>
+            <td>2000</td>
+            <td>July 3, 2020</td>
+          </tr>
+        </tbody>
+      </table>
     </main>
 
     <footer>
-      <div style="text-align: center;">
-        <hr size="20" color="lightgray" />
-        <span class="text-reset">Talmage Woodhouse</span>
-        <br />
-        <a href="https://github.com/TalmageWoodhouse/startup.git">GitHub</a>
-      <div/>
+      <hr size="20" color="lightgray" />
+      <span class="text-reset">Talmage Woodhouse</span>
+      <br />
+      <a href="https://github.com/TalmageWoodhouse/startup.git">GitHub</a>
     </footer>
   </body>
 </html>

@@ -74,9 +74,9 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
 - [ ] **HTML pages** - I added pages for each of the pages I need to display by adding a menu with a list of the different links to the other pages.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
+- [ ] **Proper HTML element usage** - I structured the elements in a way that works smoothyl and looks good.
+- [ ] **Links** - I created links that connect to each page in the application and to my github startup page
+- [ ] **Text** - I imputed text containing an explaination of how the game works and my elevator pitch.
 - [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
 - [ ] **Images** - I did not complete this part of the deliverable.
 - [ ] **Login placeholder** - I did not complete this part of the deliverable.
