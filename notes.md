@@ -34,6 +34,13 @@ An interface refers to a point of interaction between different systems, devices
 
 # HTML notes
 
+learned basic structure and format for html. learned how hrefs work to link to other pages in application or other websites.
+The three basic things HTML is made of. Its all about learning different types of these you can use.
+
+- Elements and tags
+- Attributes
+- Hyperlinks
+
 Use [My Code Pen](https://codepen.io/TalmageWoodhouse) to practice and try out things that I may want to use for my startup.
 
 ## Helpful links
