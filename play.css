@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  background-color: rgb(42, 154, 219);
+  color: white;
+  border-radius: 5px;
+}
+
+header {
+  border-bottom: thick rgb(128, 128, 128) solid;
+}
+
+menu a {
+  text-decoration: none;
+  background-color: rgb(167, 167, 167);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+menu div {
+  text-decoration: none;
+  background-color: rgb(49, 142, 212);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.player-updates {
+  width: 200px; /* Fixed width */
+  text-align: left;
+  font-size: 18px;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+footer {
+  margin: 1px;
+  border-top: thick gray solid;
+}

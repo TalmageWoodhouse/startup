@@ -37,11 +37,112 @@ An interface refers to a point of interaction between different systems, devices
 learned basic structure and format for html. learned how hrefs work to link to other pages in application or other websites.
 The three basic things HTML is made of. Its all about learning different types of these you can use.
 
-- Elements and tags
-- Attributes
-- Hyperlinks
+### Elements and tags
+
+### Attributes
+
+### Hyperlinks
 
 Use [My Code Pen](https://codepen.io/TalmageWoodhouse) to practice and try out things that I may want to use for my startup.
+
+# CSS notes
+
+## CSS Selectors
+
+### element type selector
+
+```css
+body {
+  font-family: sans-serif;
+}
+```
+
+```css
+h1 {
+  border-bottom: thin black solid;
+}
+section {
+  background: #eeeeee;
+  padding: 0.25em;
+  margin-bottom: 0.5em;
+}
+```
+
+### combinators
+
+[CombinatorsChart](Cominatorschart.png)
+
+```css
+section h2 {
+  color: #004400;
+}
+```
+
+```css
+h2 ~ p {
+  padding-left: 0.5em;
+}
+```
+
+### class selector
+
+```css
+.summary {
+  font-weight: bold;
+}
+```
+
+```css
+p.summary {
+  font-weight: bold;
+}
+```
+
+### ID Selector
+
+```css
+#physics {
+  border-left: solid 1em purple;
+}
+```
+
+### Attribute selector
+
+```css
+p[class="summary"] {
+  color: red;
+}
+```
+
+### Psuedo selector
+
+This allows someon to change the style based on positional relationships mouse interaction, hyperlink vistationstates, and attributes.
+whenever a section is hovered over.
+
+```css
+section:hover {
+  border-left: solid 1em purple;
+}
+```
+
+## CSS Declarations
+
+Rule declarations specify a property and a value to assign when the rule selector matches one or more elements.
+[declarations](declarations.png)
+[declarations2](declarations2.png)
+[declarations3](declarations3.png)
+Use units to define the size of the property.
+[Units chart](unitschart.png)
+Ways to describe a color.
+[colorchart](colorchart.png)
+
+## Fonts
+
+font-family defines what fonts should be used. (four major font families: serif, sans-serif, fixed, symbol)
+
+## CSS Animation
+
+Add animation-name: with the keyframes name. Also add the animation-duration property: whith the amounts of seconds.
 
 ## Helpful links
 
