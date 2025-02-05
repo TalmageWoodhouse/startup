@@ -32,22 +32,18 @@ menu div {
 }
 
 .wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
 
 .player-updates {
-  width: 200px; /* Fixed width */
+  width: auto; /* Fixed width */
   text-align: left;
   font-size: 18px;
   padding: 10px;
   background-color: #eee;
   border-radius: 10px;
-}
-
-footer {
-  margin: 1px;
-  border-top: thick gray solid;
 }

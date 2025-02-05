@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+header h1 {
+  background-color: rgb(42, 154, 219);
+  color: white;
+  border-radius: 5px;
+}
+
+header {
+  border-bottom: thick gray solid;
+}
+
+main h1 {
+  background-color: rgb(42, 154, 219);
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+menu a {
+  text-decoration: none;
+  background-color: rgb(167, 167, 167);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+footer {
+  position: fixed;
+  background-color: rgb(167, 167, 167);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.github {
+  text-decoration: none;
+  color: black;
+}
