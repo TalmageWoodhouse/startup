@@ -1,15 +1,40 @@
+main div {
+  display: grid;
+  grid-template-columns: 1fr; /* Single-column layout */
+  grid-template-rows: auto auto; /* Two rows, content-based */
+  justify-items: center; /* Centers content horizontally */
+  gap: 20px; /* Space between rows */
+  padding: 5px;
+}
+
 .pic-pitch-conatiner {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 20px;
+  padding: 500px;
 }
 
 img {
-  width: 150px;
+  float: inline-end;
+  max-width: 50%;
   height: auto;
   border-radius: 10px;
 }
 
 .pitch {
+  text-align: justify;
+  padding: 0.5em;
+  border-radius: 10px;
   font-size: 18px;
+  border: 2px solid black;
+}
+
+#quote {
+  background-color: brown;
+  color: white;
+  border-radius: 10px;
+  width: 50%;
+  height: auto;
+  xxxpadding: 10px 10px;
 }

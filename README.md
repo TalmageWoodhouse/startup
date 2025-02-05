@@ -91,8 +91,8 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] **Navigation elements** - I turned the navigation elements into buttons with a backround color and put them in a row.
 - [x] **Responsive to window resizing** - I centered the game grid, and made it so the menu and eveything else floats to fit the screen.
 - [x] **Application elements** - I
-- [x] **Application text content** - I
-- [x] **Application images** - I did not complete this part of the deliverable.
+- [x] **Application text content** - I changed fonts, colors and sizes of fonts to all the text.
+- [x] **Application images** - I cause the image to float to the right of the text in the about section
 
 ## 🚀 React part 1: Routing deliverable
 
