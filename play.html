@@ -28,12 +28,16 @@
 
     <main>
       <menu>
-        <div>
+        <div class="container">
           <button>New Game</button>
-          <label for="count">Score</label>
-          <input type="text" id="count" value="--" readonly />
-          <label for="count">Highscore</label>
-          <input type="text" id="count" value="--" readonly />
+          <div class="score-container">
+            <label for="count">Score</label>
+            <p id="score">100</p>
+          </div>
+          <div class="score-container">
+            <label for="count">Highscore</label>
+            <p id="score">5000</p>
+          </div>
         </div>
       </menu>
 

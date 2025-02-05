@@ -87,12 +87,12 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Header, footer, and main content body** - I Changed the colors, fonts, alignment, spacing, ect.
-- [ ] **Navigation elements** - I turned the navigation elements into buttons with a backround color and put them in a row.
-- [ ] **Responsive to window resizing** - I did not complete this part of the deliverable.
-- [ ] **Application elements** - I did not complete this part of the deliverable.
-- [ ] **Application text content** - I did not complete this part of the deliverable.
-- [ ] **Application images** - I did not complete this part of the deliverable.
+- [x] **Header, footer, and main content body** - I Changed the colors, fonts, alignment, spacing, ect.
+- [x] **Navigation elements** - I turned the navigation elements into buttons with a backround color and put them in a row.
+- [x] **Responsive to window resizing** - I centered the game grid, and made it so the menu and eveything else floats to fit the screen.
+- [x] **Application elements** - I
+- [x] **Application text content** - I
+- [x] **Application images** - I did not complete this part of the deliverable.
 
 ## 🚀 React part 1: Routing deliverable
 

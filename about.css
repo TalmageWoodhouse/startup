@@ -1,28 +1,15 @@
-body {
-  text-align: center;
-  font-family: sans-serif;
+.pic-pitch-conatiner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-h1 {
-  background-color: rgb(42, 154, 219);
-  color: white;
-  border-radius: 5px;
+img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
 }
 
-header {
-  border-bottom: thick gray solid;
-}
-
-menu a {
-  text-decoration: none;
-  background-color: rgb(167, 167, 167);
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  display: inline-block;
-}
-
-footer {
-  margin: 2em;
-  border-top: thick gray solid;
+.pitch {
+  font-size: 18px;
 }

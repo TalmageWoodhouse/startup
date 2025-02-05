@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="about.css" />
     <meta charset="UTF-8" />
     <!-- Tell browsers not to scale the viewport automatically -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,23 +30,22 @@
     </header>
 
     <main>
-   
-      <p>
-        3072 is played by using the arrow keys to slide the numbers in
-        thedirection of your choice. When an arrow it pressed the numbers slide
-        as far to that direction as possible. Each time you slide a number a new
-        number consisting of 3 or 6 will appear. If 2 of the same numbers slide
-        into each other they will combine. The object of the game is to get the
-        highest score possible and the game is over when the board is full and
-        it is not possible to slide anymore.
-        <p id="picture" class="picture-box">
-            <img width="400px" src="numbers.jpg" alt="random" />
+      <div class="pic-pitch-container">
+        <img src="numbers.jpg" alt="random" />
+        <p class="pitch">
+          3072 is played by using the arrow keys to slide the numbers in
+          thedirection of your choice. When an arrow it pressed the numbers
+          slide as far to that direction as possible. Each time you slide a
+          number a new number consisting of 3 or 6 will appear. If 2 of the same
+          numbers slide into each other they will combine. The object of the
+          game is to get the highest score possible and the game is over when
+          the board is full and it is not possible to slide anymore.
         </p>
-      </p>
-      <p>
-        Do you think you could get your highest number to 3072? Challenge
-        yourself with this fun, simple game of strategy and addition!
-      </p>
+        <p class="pitch">
+          Do you think you could get your highest number to 3072? Challenge
+          yourself with this fun, simple game of strategy and addition!
+        </p>
+      </div>
 
       <div id="quote">
         <div>You miss 100% of the shots you don't take.</div>
@@ -54,10 +54,10 @@
     </main>
 
     <footer>
-      <hr size="20" color="lightgray" />
       <span class="text-reset">Talmage Woodhouse</span>
-      <br />
-      <a href="https://github.com/TalmageWoodhouse/startup.git">GitHub</a>
+      <a class="github" href="https://github.com/TalmageWoodhouse/startup.git"
+        >GitHub</a
+      >
     </footer>
   </body>
 </html>

@@ -1,28 +1,3 @@
-body {
-  text-align: center;
-  font-family: sans-serif;
-}
-
-h1 {
-  background-color: rgb(42, 154, 219);
-  color: white;
-  border-radius: 5px;
-}
-
-header {
-  border-bottom: thick gray solid;
-  margin: 1.5em;
-}
-
-menu a {
-  text-decoration: none;
-  background-color: rgb(167, 167, 167);
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  display: inline-block;
-}
-
 main table {
   border-collapse: collapse;
   border: 2px solid rgb(140, 140, 140);
@@ -42,9 +17,4 @@ th,
 td {
   border: 1px solid rgb(228, 240, 245);
   padding: 8px 10px;
-}
-
-footer {
-  margin: 2em;
-  border-top: thick gray solid;
 }

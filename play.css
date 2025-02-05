@@ -1,34 +1,20 @@
-body {
-  text-align: center;
-  font-family: sans-serif;
-}
-
-h1 {
-  background-color: rgb(42, 154, 219);
-  color: white;
-  border-radius: 5px;
-}
-
-header {
-  border-bottom: thick rgb(128, 128, 128) solid;
-}
-
-menu a {
-  text-decoration: none;
-  background-color: rgb(167, 167, 167);
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  display: inline-block;
-}
-
 menu div {
-  text-decoration: none;
-  background-color: rgb(49, 142, 212);
+  xxxbackground-color: rgb(49, 142, 212);
   color: white;
-  padding: 10px 20px;
+  padding: 5px 20px;
   border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  align-items: center; /* Aligns items vertically */
+  gap: 20px; /* Space between elements */
+}
+
+.score-container {
+  background-color: rgb(49, 142, 212);
   display: inline-block;
+  text-align: center; /* Centers text */
 }
 
 .wrapper {
