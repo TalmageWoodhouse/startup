@@ -1,4 +1,4 @@
-body {
+.body {
   text-align: center;
   font-family: sans-serif;
 }
@@ -72,6 +72,7 @@ footer {
 }
 
 .github {
+  text-align: right;
   text-decoration: none;
   color: black;
 }

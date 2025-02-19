@@ -120,7 +120,7 @@ This allows someon to change the style based on positional relationships mouse i
 whenever a section is hovered over.
 
 ```css
-section:hover {
+section:hover {d
   border-left: solid 1em purple;
 }
 ```
@@ -143,6 +143,20 @@ font-family defines what fonts should be used. (four major font families: serif,
 ## CSS Animation
 
 Add animation-name: with the keyframes name. Also add the animation-duration property: whith the amounts of seconds.
+
+# JavaScript Notes
+
+Node.js
+NPM
+React
+Vite
+JSX
+
+- style components
+- child components
+- properties
+- state
+  A components properties and state are used by the react framework to determine the reactivity of the interface. Reactivity controls how a component reacts to action taken by the user or events that happen within the application. Whenever a components state or properties change, the render function for the component and all of its dependent component render functions are called.
 
 ## Helpful links
 
