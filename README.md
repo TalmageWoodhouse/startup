@@ -98,9 +98,9 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Bundled using Vite** - I did not complete this part of the deliverable.
-- [ ] **Components** - I did not complete this part of the deliverable.
-- [ ] **Router** - Routing between login and voting components.
+- [x] **Bundled using Vite** - I installed vite to combine javascript and css. I installed and ran react components in my app. I changed my file struture to match the directory structure that vite expects.
+- [x] **Components** - I created an app.jsx and app.css to be able to use react and import styling. I ran vite in npm to edit and see the display. I restructured my html code to jsx for each of the pages to render the same look.
+- [x] **Router** - Routing between login and voting components so that there are direct nav links to render each page.
 
 ## 🚀 React part 2: Reactivity
 
