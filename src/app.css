@@ -1,63 +1,33 @@
 .body {
   text-align: center;
   font-family: sans-serif;
+  width: 100%;
 }
 
-header h1 {
-  display: inline-block;
-  background-color: rgb(42, 154, 219);
-  color: white;
-  border-radius: 5px;
+.navbar {
+  background-color: rgb(42, 154, 219); /* Sets the background color */
+  padding: 15px; /* Adds some spacing */
+}
+
+.navbar-brand {
+  font-size: 2rem; /* Adjusts title size */
+  font-weight: bold;
+  color: white; /* Ensures visibility */
 }
 
 header {
-  border-bottom: thick gray solid;
+  border-bottom: 20px rgb(161, 161, 161) solid;
+  width: 100%;
 }
 
-main h1 {
-  background-color: rgb(42, 154, 219);
-  color: white;
-  border-radius: 5px;
-  display: inline-block;
-  padding: 10px 20px;
-}
-
-menu a {
+.nav-item {
   text-decoration: none;
   background-color: rgb(167, 167, 167);
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
   display: inline-block;
-}
-
-form {
-  width: 80%; /* Adjust width based on screen size */
-  max-width: 400px; /* Limit max width for larger screens */
-  margin: auto;
-}
-
-input {
-  width: 100%; /* Make inputs expand fully within the form */
-  padding: 10px;
-  margin: 5px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-button {
-  width: 48%; /* Adjust button width */
-  padding: 10px;
   margin: 5px;
-  border: none;
-  background: rgb(42, 154, 219);
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background: rgb(106, 106, 115);
 }
 
 footer {
@@ -67,13 +37,18 @@ footer {
   left: 0;
   width: 100%;
   color: white;
-  text-align: left;
   padding: 10px;
-  text-decoration: none;
+  text-align: left;
+}
+
+.text-reset {
+  text-align: left;
 }
 
 .github {
+  float: right;
   text-align: right;
   text-decoration: none;
   color: black;
+  padding-right: 15px;
 }
