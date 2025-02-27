@@ -15,6 +15,7 @@ menu div {
   background-color: rgb(49, 142, 212);
   display: inline-block;
   text-align: center; /* Centers text */
+  padding: 10px;
 }
 
 .wrapper {

@@ -1,7 +1,19 @@
 import React from "react";
 import "./play.css";
 
-export function Play() {
+export function Play({ user }) {
+  // const [msg, setMsg] = React.useState('...')
+
+  // React.useEffect(() => {
+  //   setInterval (() => {
+  //     const names = ['bob', 'sue', 'tim'];
+  //     const randomName = names[Math.floor(Math.random() * names.length)];
+  //     const randomCount = Math.floor(Math.random() * 100) + 1;
+  //     const newMsg = '${randomName}: ${randomCount}';
+  //     setMsg(newMsg);
+  //   }, 1000);
+  // })
+
   return (
     <main>
       <menu>
@@ -22,7 +34,7 @@ export function Play() {
         <div className="player-updates">
           <div className="players">
             Player:
-            <span className="playername">player name</span>
+            <span className="playername"> {user} </span>
           </div>
           <ul className="notification">
             <li className="playername">Tom started a new game</li>
@@ -32,7 +44,7 @@ export function Play() {
         </div>
 
         <div className="game-container">
-          <title>4x4 SVG Table</title>
+          <title>3072 Play</title>
           <svg width="260" height="260">
             <rect
               x="0"
