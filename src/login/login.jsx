@@ -34,9 +34,9 @@ export function Login({ setUser }) {
           <button onClick={loginUser} type="submit">
             Login
           </button>
-          <button onClick={loginUser} type="submit">
+          {/* <button onClick={loginUser} type="submit">
             Create New User
-          </button>
+          </button> */}
         </div>
       </form>
     </main>

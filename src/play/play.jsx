@@ -1,19 +1,10 @@
 import React from "react";
 import "./play.css";
 
-export function Play({ user }) {
-  // const [msg, setMsg] = React.useState('...')
+// import { Players } from "./players";
+// import { 3072Game } from './3072Game';
 
-  // React.useEffect(() => {
-  //   setInterval (() => {
-  //     const names = ['bob', 'sue', 'tim'];
-  //     const randomName = names[Math.floor(Math.random() * names.length)];
-  //     const randomCount = Math.floor(Math.random() * 100) + 1;
-  //     const newMsg = '${randomName}: ${randomCount}';
-  //     setMsg(newMsg);
-  //   }, 1000);
-  // })
-
+export function Play({ user }, props) {
   return (
     <main>
       <menu>
@@ -34,9 +25,10 @@ export function Play({ user }) {
         <div className="player-updates">
           <div className="players">
             Player:
-            <span className="playername"> {user} </span>
+            <span className="playername">{user}</span>
           </div>
           <ul className="notification">
+            {/* <Players userName={props.userName} /> */}
             <li className="playername">Tom started a new game</li>
             <li className="playername">Julia started a new game</li>
             <li className="playername">Tom scored 500</li>

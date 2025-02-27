@@ -6,7 +6,7 @@ import {
   NavLink,
   Route,
   Routes,
-  useNaviate,
+  useNavigate,
 } from "react-router-dom";
 import { Login } from "./login/login";
 import { Play } from "./play/play";
@@ -31,9 +31,11 @@ export default function App() {
                   Play
                 </NavLink>
               )}
-              <NavLink className="nav-item" to="scores">
-                Scores
-              </NavLink>
+              {user && (
+                <NavLink className="nav-item" to="scores">
+                  Scores
+                </NavLink>
+              )}
               <NavLink className="nav-item" to="about">
                 About
               </NavLink>

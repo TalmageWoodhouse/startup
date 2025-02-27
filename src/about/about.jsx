@@ -1,7 +1,17 @@
 import React from "react";
 import "./about.css";
 
-export function About() {
+export function About(props) {
+  const [imageUrl, setImageUrl] = React.useState("");
+  const [quote, setQuote] = React.useState("Loading...");
+  const [quoteAuthor, setQuoteAuthor] = React.useState("uknown");
+
+  React.useEffect(() => {
+    setImageUrl("numbers.jpg");
+    setQuote("You miss 100% of the Shots you don't take");
+    setQuoteAuthor("Micheal Jordan");
+  }, []);
+
   return (
     <main>
       <div className="pic-pitch-container">
@@ -14,14 +24,14 @@ export function About() {
           game is to get the highest score possible and the game is over when
           the board is full and it is not possible to slide anymore.
         </p>
-        <img src="images/numbers.jpg" alt="random" />
+        <img src={imageUrl} alt="image" />
         <p className="pitch">
-          Do you think you could get your highest number to 3072? Challenge
-          yourself with this fun, simple game of strategy and addition!
+          Do you think you could get your highest number to 3072?
         </p>
 
-        <div id="quote">
-          <p>You miss 100% of the shots you don't take. - Michael Jordan</p>
+        <div id="quote-box">
+          <p className="quote">{quote}</p>
+          <p className="author">{quoteAuthor}</p>
         </div>
       </div>
     </main>

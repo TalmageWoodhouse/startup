@@ -158,6 +158,8 @@ JSX
 - state
   A components properties and state are used by the react framework to determine the reactivity of the interface. Reactivity controls how a component reacts to action taken by the user or events that happen within the application. Whenever a components state or properties change, the render function for the component and all of its dependent component render functions are called.
 
+# JS React notes
+
 ## Helpful links
 
 - [Course instruction](https://github.com/webprogramming260)

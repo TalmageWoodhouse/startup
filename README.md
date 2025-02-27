@@ -106,7 +106,12 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **All functionality implemented or mocked out** - I did not complete this part of the deliverable.
+- [ ] **All functionality implemented or mocked out** -
+      Login: Save username and display after logining in
+      About: Put effects to set up for random image and quote simulator.
+      Play: live player chart with random names and scores. game function
+      Scores:  
+
 - [ ] **Hooks** - I did not complete this part of the deliverable.
 
 ## 🚀 Service deliverable
