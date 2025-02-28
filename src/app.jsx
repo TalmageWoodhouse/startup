@@ -12,12 +12,20 @@ import { Login } from "./login/login";
 import { Play } from "./play/play";
 import { Scores } from "./scores/scores";
 import { About } from "./about/about";
+import { AuthState } from "./login/authState";
 
 export default function App() {
-  const [user, setUser] = React.useState(localStorage.getItem("user") || null);
+  const [userName, setUserName] = React.useState(
+    localStorage.getItem("userName") || ""
+  );
+  const currentAuthState = userName
+    ? AuthState.Authenticated
+    : AuthState.Unauthenticated;
+  const [authState, setAuthState] = React.useState(currentAuthState);
+
   return (
     <BrowserRouter>
-      <div className="body bg-dark text-light">
+      <div className="body">
         <header className="container-fluid">
           <nav className="navbar fixed-top navbar-dark">
             <div className="navbar-brand">3072</div>
@@ -51,9 +59,9 @@ export default function App() {
             path="/"
             element={
               <Login
-                setUser={setUser}
+                userName={userName}
                 authState={authState}
-                onAuthchange={(username, authState) => {
+                onAuthChange={(userName, authState) => {
                   setAuthState(authState);
                   setUserName(userName);
                 }}
@@ -61,7 +69,7 @@ export default function App() {
             }
             exact
           />
-          <Route path="/play" element={<Play user={user} />} />
+          <Route path="/play" element={<Play userName={userName} />} />
           <Route path="/scores" element={<Scores />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />

@@ -1,6 +1,4 @@
 import React from "react";
-
-import Button from "react-bootstrap/Button";
 import { MessageDialog } from "./messageDialog";
 
 export function Unauthenticated(props) {
@@ -40,20 +38,20 @@ export function Unauthenticated(props) {
             placeholder="password"
           />
         </div>
-        <Button
+        <button
           variant="primary"
           onClick={() => loginUser()}
           disabled={!userName || !password}
         >
           Login
-        </Button>
-        <Button
+        </button>
+        <button
           variant="secondary"
           onClick={() => createUser()}
           disabled={!userName || !password}
         >
           Create
-        </Button>
+        </button>
       </div>
 
       <MessageDialog

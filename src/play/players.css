@@ -1,0 +1,21 @@
+.player-updates {
+  position: fixed; /* Keeps it in place while scrolling */
+  left: 30px; /* Distance from the left side of the screen */
+  top: 50%; /* Centers vertically */
+  transform: translateY(-50%); /* Adjusts for centering */
+  background-color: rgba(
+    101,
+    101,
+    101,
+    0.8
+  ); /* Dark background for visibility */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+#player-messages {
+  max-height: 200px;
+  overflow-y: auto; /* Scroll if too many messages */
+}

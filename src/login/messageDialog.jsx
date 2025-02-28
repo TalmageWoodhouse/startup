@@ -1,15 +1,17 @@
 import React from "react";
-
-import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
+import "./messageDialog.css"; // Ensure you create and import this CSS file
 
 export function MessageDialog(props) {
+  if (!props.message) return null; // Don't render the modal if there's no message
+
   return (
-    <Modal {...props} show={props.message} centered>
-      <Modal.Body>{props.message}</Modal.Body>
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
-    </Modal>
+    <div className="modal-overlay">
+      <div className="modal-content">
+        <div className="modal-body">{props.message}</div>
+        <div className="modal-footer">
+          <button onClick={props.onHide}>Close</button>
+        </div>
+      </div>
+    </div>
   );
 }

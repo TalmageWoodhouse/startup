@@ -30,6 +30,11 @@ header {
   margin: 5px;
 }
 
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
 footer {
   position: fixed;
   background-color: rgb(167, 167, 167);
