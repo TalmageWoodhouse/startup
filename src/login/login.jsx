@@ -1,44 +1,29 @@
 import React from "react";
-import "./login.css";
-import { useNavigate } from "react-router-dom";
 
-export function Login({ setUser }) {
-  const [text, setText] = React.useState("");
-  const navigate = useNavigate();
+import { Unauthenticated } from "./unauthenticated";
+import { Authenticated } from "./authenticated";
+import { AuthState } from "./authState";
 
-  function loginUser() {
-    localStorage.setItem("user", text);
-    setUser(text);
-    navigate("/Play");
-  }
-
-  function textChange(e) {
-    setText(e.target.value);
-  }
-
+export function Login({ userName, authState, onAuthChange }) {
   return (
-    <main>
-      <h1>Login to play</h1>
-      <form method="get" action="play.html">
-        <div className="form-container">
-          <input
-            type="text"
-            placeholder="your@email.com"
-            onChange={textChange}
+    <main className="container-fluid bg-secondary text-center">
+      <div>
+        {authState !== AuthState.Unknown && <h1>Login to Play</h1>}
+        {authState === AuthState.Authenticated && (
+          <Authenticated
+            userName={userName}
+            onLogout={() => onAuthChange(userName, AuthState.Unauthenticated)}
           />
-        </div>
-        <div className="form-container">
-          <input type="password" placeholder="password" />
-        </div>
-        <div>
-          <button onClick={loginUser} type="submit">
-            Login
-          </button>
-          {/* <button onClick={loginUser} type="submit">
-            Create New User
-          </button> */}
-        </div>
-      </form>
+        )}
+        {authState === AuthState.Unauthenticated && (
+          <Unauthenticated
+            userName={userName}
+            onLogin={(loginUserName) => {
+              onAuthChange(loginUserName, AuthState.Authenticated);
+            }}
+          />
+        )}
+      </div>
     </main>
   );
 }

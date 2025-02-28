@@ -9,7 +9,7 @@ export function Play({ user }, props) {
     <main>
       <menu>
         <div className="container">
-          <button>New Game</button>
+          <button className="game-button">New Game</button>
           <div className="score-container">
             <label for="count">Score</label>
             <p id="score">100</p>
@@ -23,10 +23,7 @@ export function Play({ user }, props) {
 
       <div className="wrapper">
         <div className="player-updates">
-          <div className="players">
-            Player:
-            <span className="playername">{user}</span>
-          </div>
+          <div className="players">Player: {user}</div>
           <ul className="notification">
             {/* <Players userName={props.userName} /> */}
             <li className="playername">Tom started a new game</li>

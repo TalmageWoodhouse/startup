@@ -20,21 +20,24 @@ export default function App() {
       <div className="body bg-dark text-light">
         <header className="container-fluid">
           <nav className="navbar fixed-top navbar-dark">
-            {user}
             <div className="navbar-brand">3072</div>
             <menu className="navbar-nav">
               <NavLink className="nav-item" to="">
                 Login
               </NavLink>
-              {user && (
-                <NavLink className="nav-item" to="play">
-                  Play
-                </NavLink>
+              {authState === AuthState.Authenticated && (
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="play">
+                    Play
+                  </NavLink>
+                </li>
               )}
-              {user && (
-                <NavLink className="nav-item" to="scores">
-                  Scores
-                </NavLink>
+              {authState === AuthState.Authenticated && (
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="scores">
+                    Scores
+                  </NavLink>
+                </li>
               )}
               <NavLink className="nav-item" to="about">
                 About
@@ -44,7 +47,20 @@ export default function App() {
         </header>
 
         <Routes>
-          <Route path="/" element={<Login setUser={setUser} />} exact />
+          <Route
+            path="/"
+            element={
+              <Login
+                setUser={setUser}
+                authState={authState}
+                onAuthchange={(username, authState) => {
+                  setAuthState(authState);
+                  setUserName(userName);
+                }}
+              />
+            }
+            exact
+          />
           <Route path="/play" element={<Play user={user} />} />
           <Route path="/scores" element={<Scores />} />
           <Route path="/about" element={<About />} />

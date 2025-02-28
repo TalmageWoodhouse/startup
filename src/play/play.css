@@ -1,21 +1,21 @@
 menu div {
-  xxxbackground-color: rgb(49, 142, 212);
   color: white;
   padding: 5px 20px;
   border-radius: 5px;
 }
 
 .container {
+  justify-content: center;
   display: flex;
   align-items: center; /* Aligns items vertically */
   gap: 20px; /* Space between elements */
 }
 
 .score-container {
-  background-color: rgb(49, 142, 212);
+  background: rgb(42, 154, 219);
   display: inline-block;
   text-align: center; /* Centers text */
-  padding: 10px;
+  padding: 10px 17px;
 }
 
 .wrapper {
@@ -24,6 +24,18 @@ menu div {
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+.game-button {
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  background: rgb(42, 154, 219);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .player-updates {
