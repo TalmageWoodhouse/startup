@@ -3,11 +3,11 @@
   left: 30px; /* Distance from the left side of the screen */
   top: 50%; /* Centers vertically */
   transform: translateY(-50%); /* Adjusts for centering */
-  background-color: rgba(
-    101,
-    101,
-    101,
-    0.8
+  background-color: rgb(
+    161,
+    161,
+    161,
+    0.875
   ); /* Dark background for visibility */
   color: white;
   padding: 10px;
