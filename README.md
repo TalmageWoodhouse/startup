@@ -106,13 +106,13 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **All functionality implemented or mocked out** -
-      Login: Save username and display after logining in
+- [x] **All functionality implemented or mocked out** -
+      Login: Save username and display after logining, check and set state of authentication. Storing user data in local storage.
       About: Put effects to set up for random image and quote simulator.
-      Play: live player chart with random names and scores. game function
-      Scores:  
+      Play: mocked out a live player chart with random names and scores. created a borad that could be changed and updated.
+      Scores: updates highscores from game and stores them in local storage and displays them on the highscores chart.
 
-- [ ] **Hooks** - I did not complete this part of the deliverable.
+- [x] **Hooks** - I used hooks such as useEffect and useState to render changes on my board, when someone clicks the arrow keys to move the squares and update the board. Implemented useEffect to parse the data from the table into a string to output on the scores table.
 
 ## 🚀 Service deliverable
 
