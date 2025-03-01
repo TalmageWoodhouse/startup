@@ -160,6 +160,17 @@ JSX
 
 # JS React notes
 
+operateors, loops
+
+functions
+local storage
+Async
+
+React Hooks
+
+- UseState
+- UseEffect
+
 ## Helpful links
 
 - [Course instruction](https://github.com/webprogramming260)
