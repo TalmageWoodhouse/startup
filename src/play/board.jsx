@@ -45,7 +45,7 @@ export function Board() {
   }, [grid, score, highScore]);
 
   function resetGame() {
-    setGrid(generateInitioalGrid()); //reset the grid
+    setGrid(generateInitialGrid()); //reset the grid
     setScore(0); //reset the score
   }
 
